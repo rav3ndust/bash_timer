@@ -17,5 +17,7 @@ The script will ask you the length of time you want to set it for. A few example
 > "5m 30s" will set a 5-minute and 30-second timer.
 > 
 > "1h" will set a timer for an hour.
+>
+> "2h 30m" will set a timer for 2.5 hours.
 
 ...so on and so forth!
