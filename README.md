@@ -21,3 +21,5 @@ The script will ask you the length of time you want to set it for. A few example
 > "2h 30m" will set a timer for 2.5 hours.
 
 ...so on and so forth!
+
+When it's finished running, you'll hear an alert from `espeak` letting you know the timer is done, and a `libnotify` notification will appear on your desktop (helpful to let you know your timer is up if your volume is down/you have other stuff playing in the background).
