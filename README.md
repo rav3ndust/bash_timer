@@ -4,7 +4,7 @@ A simple shell script for setting custom timers.
 ![image](https://github.com/rav3ndust/bash_timer/assets/35274771/2ccb724c-35e8-4dfc-a390-d9cc4de28eb2)
 ###### the timer script in action
 
-I often use this script for setting [pomodoros](https://en.wikipedia.org/wiki/Pomodoro_Technique) or custom timers/reminders.
+I often use this script for setting [pomodoros](https://en.wikipedia.org/wiki/Pomodoro_Technique) or other custom timers/reminders.
 
 ## usage
 
