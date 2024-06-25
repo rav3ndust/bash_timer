@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# a simple tool for creating custom timers using bash.
 title="Bash Timer"
 prompt="How long do you want to set a timer for?"
 alert="Your timer is up!"
