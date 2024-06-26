@@ -9,7 +9,7 @@ alert_func () {
 	# set timer:
 	# seconds 's' (ex: 45s) (note: seconds are default if only digits are specified)
 	# minutes 'm' (ex: 5m)
-	# hours 'h' (ex: 2h 30m)
+	# hours 'h'   (ex: 2h 30m)
 	echo "${alert}"; espeak "${alert}"
 	notify-send "${title}" "${alert}"
 }
