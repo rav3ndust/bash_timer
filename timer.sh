@@ -4,10 +4,10 @@ title="Bash Timer"
 prompt="How long do you want to set a timer for?"
 alert="Your timer is up!"
 alert_func () {
-	# alerts user
+	# this function alerts user when timer is up.
 	# uses `sleep` cmd.
 	# set timer:
-	# seconds 's' (default)
+	# seconds 's' (ex: 45s) (note: seconds are default if only digits are specified)
 	# minutes 'm' (ex: 5m)
 	# hours 'h' (ex: 2h 30m)
 	echo "${alert}"; espeak "${alert}"
