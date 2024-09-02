@@ -15,11 +15,11 @@ alert_func () {
 }
 main () {
 	echo "${prompt}"; read input_time
-	local start_time=$(date +%r)
+	local start_time=$(date +%H:%M)
 	echo "Timer started at ${start_time}."
 	sleep ${input_time}
 	alert_func
-	local finish_time=$(date +%r)
+	local finish_time=$(date +%H:%M)
 	echo "Timer finished at ${finish_time}."
 	exit
 }
